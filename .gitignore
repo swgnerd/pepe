@@ -1,8 +1,60 @@
-#Virt 
-env/ 
-venv/ 
-.venv/ 
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+config.local.*
 
-#secret
-.env/
+# Зависимости и окружения
+.venv/
+venv/
+node_modules/
+vendor/
+packages/
 
+# Сборка и сгенерированные файлы
+build/
+dist/
+out/
+target/
+coverage/
+*.min.js
+*.map
+
+# Кэш и временные файлы
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+tmp/
+temp/
+*.tmp
+*.log
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Базы данных и локальные данные
+*.db
+*.sqlite
+*.sqlite3
+data/local/
+uploads/
+
+# Архивы и большие файлы — добавляйте только если не хотите хранить их в Git
+# *.zip
+# *.7z
+# *.mp4
+# *.mov
