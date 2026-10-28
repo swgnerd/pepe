@@ -8,3 +8,6 @@ z = max(3,5,6,1,-5)
 t = round(10/3)
 k = abs(-4)
 l = input('PEPE')
+
+
+print(t)
